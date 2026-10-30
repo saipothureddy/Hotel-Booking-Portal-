@@ -18,7 +18,7 @@ function Rooms() {
     try {
       setRooms(await getData("rooms"));
     } catch (err) {
-      setError("Could not load rooms");
+      setError("Oops! Could not load rooms");
     }
   }
 
@@ -63,7 +63,7 @@ function Rooms() {
       setEditId(null);
       loadRooms();
     } catch (err) {
-      setError("Could not save room");
+      setError("Oops! Could not save room");
     }
   }
 
@@ -82,7 +82,7 @@ function Rooms() {
       await deleteData(`rooms/${room.id}`);
       loadRooms();
     } catch (err) {
-      setError("Could not delete room");
+      setError("Oops! Could not delete room");
     }
   }
 
@@ -118,11 +118,11 @@ function Rooms() {
       <table className="table table-bordered table-striped bg-white">
         <thead className="table-dark">
           <tr>
-            <th>Room No</th>
-            <th>Type</th>
-            <th>Price</th>
-            <th>Status</th>
-            <th>Actions</th>
+            <th>ROOM NO</th>
+            <th>TYPE</th>
+            <th>PRICE</th>
+            <th>STATUS</th>
+            <th>ACTIONS</th>
           </tr>
         </thead>
         <tbody>
