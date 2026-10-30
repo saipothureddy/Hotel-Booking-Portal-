@@ -1,0 +1,238 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "roomNumber": "101",
+      "type": "Single",
+      "price": 1500,
+      "available": false
+    },
+    {
+      "id": 2,
+      "roomNumber": "102",
+      "type": "Single",
+      "price": 1500,
+      "available": false
+    },
+    {
+      "id": 3,
+      "roomNumber": "201",
+      "type": "Double",
+      "price": 2500,
+      "available": false
+    },
+    {
+      "id": 4,
+      "roomNumber": "202",
+      "type": "Double",
+      "price": 2500,
+      "available": false
+    },
+    {
+      "id": 5,
+      "roomNumber": "301",
+      "type": "Deluxe",
+      "price": 3500,
+      "available": true
+    },
+    {
+      "id": 6,
+      "roomNumber": "401",
+      "type": "Suite",
+      "price": 5500,
+      "available": false
+    },
+    {
+      "roomNumber": "133",
+      "type": "Deluxe",
+      "price": 3000,
+      "available": true,
+      "id": 7
+    },
+    {
+      "roomNumber": "134",
+      "type": "Single",
+      "price": 1500,
+      "available": true,
+      "id": 8
+    },
+    {
+      "roomNumber": "135",
+      "type": "Double",
+      "price": 2000,
+      "available": true,
+      "id": 9
+    },
+    {
+      "roomNumber": "136",
+      "type": "Suite",
+      "price": 3000,
+      "available": true,
+      "id": 10
+    },
+    {
+      "roomNumber": "137",
+      "type": "Single",
+      "price": 3000,
+      "available": true,
+      "id": 11
+    }
+  ],
+  "customers": [
+    {
+      "name": "sai",
+      "phone": "9876543210",
+      "email": "sai@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Dattu",
+      "phone": "9123456780",
+      "email": "dattu@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "satish",
+      "phone": "9988776655",
+      "email": "satish@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "yashwanth",
+      "phone": "9618073266",
+      "email": "yash@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "varma",
+      "phone": "7965825525",
+      "email": "varma@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "chethan",
+      "phone": "1236547908",
+      "email": "sai.pothureddy24@sasi.ac.in",
+      "id": 6
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "roomId": 2,
+      "customerId": 1,
+      "checkIn": "2026-10-20",
+      "checkOut": "2026-10-22",
+      "totalAmount": 3000,
+      "status": "Completed"
+    },
+    {
+      "roomId": 5,
+      "customerId": 1,
+      "checkIn": "2026-10-27",
+      "checkOut": "2026-10-28",
+      "totalAmount": 3500,
+      "status": "Completed",
+      "id": 2
+    },
+    {
+      "roomId": 2,
+      "customerId": 3,
+      "checkIn": "2026-10-26",
+      "checkOut": "2026-10-27",
+      "totalAmount": 1500,
+      "status": "Cancelled",
+      "id": 3
+    },
+    {
+      "roomId": 2,
+      "customerId": 4,
+      "checkIn": "2026-10-26",
+      "checkOut": "2026-10-27",
+      "totalAmount": 1500,
+      "status": "Completed",
+      "id": 4
+    },
+    {
+      "roomId": 1,
+      "customerId": 2,
+      "checkIn": "2026-10-29",
+      "checkOut": "2026-10-30",
+      "totalAmount": 1500,
+      "status": "Cancelled",
+      "id": 5
+    },
+    {
+      "roomId": 1,
+      "customerId": 2,
+      "checkIn": "2026-10-29",
+      "checkOut": "2026-10-30",
+      "totalAmount": 1500,
+      "status": "Confirmed",
+      "id": 6
+    },
+    {
+      "roomId": 6,
+      "customerId": 2,
+      "checkIn": "2026-10-30",
+      "checkOut": "2026-10-31",
+      "totalAmount": 5500,
+      "status": "Confirmed",
+      "id": 7
+    },
+    {
+      "roomId": 2,
+      "customerId": 1,
+      "checkIn": "2026-10-30",
+      "checkOut": "2026-10-31",
+      "totalAmount": 1500,
+      "status": "Confirmed",
+      "id": 8
+    },
+    {
+      "roomId": 2,
+      "customerId": 1,
+      "checkIn": "2026-10-30",
+      "checkOut": "2026-10-31",
+      "totalAmount": 1500,
+      "status": "Confirmed",
+      "id": 9
+    },
+    {
+      "roomId": 1,
+      "customerId": 4,
+      "checkIn": "2026-11-01",
+      "checkOut": "2026-11-02",
+      "totalAmount": 1500,
+      "status": "Confirmed",
+      "id": 10
+    },
+    {
+      "roomId": 3,
+      "customerId": 3,
+      "checkIn": "2026-11-03",
+      "checkOut": "2026-11-04",
+      "totalAmount": 2500,
+      "status": "Confirmed",
+      "id": 11
+    },
+    {
+      "roomId": 4,
+      "customerId": 1,
+      "checkIn": "2026-11-05",
+      "checkOut": "2026-11-06",
+      "totalAmount": 2500,
+      "status": "Confirmed",
+      "id": 12
+    },
+    {
+      "roomId": 5,
+      "customerId": 3,
+      "checkIn": "2026-10-30",
+      "checkOut": "2026-10-31",
+      "totalAmount": 3500,
+      "status": "Cancelled",
+      "id": 13
+    }
+  ]
+}
